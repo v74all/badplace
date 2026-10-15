@@ -4,5 +4,8 @@
 # YAML config parsing
 pyyaml>=6.0
 
-# HTTP requests (for connectivity checks)
+# HTTP requests (for connectivity checks and relay forwarding)
 requests>=2.31.0
+
+# X.509 certificate generation for the local HTTPS MITM CA
+cryptography>=42.0.0
